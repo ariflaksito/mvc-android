@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RentCar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About</string>
+    
+    <string name="app_vesion">Version Stable 1.0</string>
+    <string name="app_team">Aplikasi Project Oracle Academy\nJakarta, 21 &#8211; 24 April 2014\nESQ 165 Building\n\nTeam\nArif Laksito\nAdi Sucipto\nMuchamad Eki\nAbdul Barir Hakim</string>
+
+</resources>

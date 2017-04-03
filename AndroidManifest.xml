@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oracle.rentcarmobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.oracle.rentcarmobile.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:label="RentCar Mobile Apps"></activity>
+        <activity android:name=".CarActivity" android:label="Data Kendaraan"></activity>
+        <activity android:name=".PinjamActivity" android:label="Peminjaman"></activity>
+        <activity android:name=".KembaliActivity" android:label="Pengembalian"></activity>
+        <activity android:name=".ReportActivity" android:label="Data Laporan"></activity>
+        <activity android:name=".AddCarActivity" android:label="Penambahan Data Kendaraan"></activity>
+        
+    </application>
+
+</manifest>
